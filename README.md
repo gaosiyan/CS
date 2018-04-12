@@ -1,37 +1,5 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/gaosiyan/CS/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+# 目标文件格式
+&emsp;&emsp;目前PC平台流行的可执行文件格式(Executable),主要是Windows下的PE(Portable Executable)和Linux下的ELF(Executable Linkable Format),它们都是COFF(Common file format)格式的变种.目标文件就是源代码编译后,但没有经过链接的那些中间文件(Windows下的`.obj`和Linux下的`.o`),目标文件的内容与结构和可执行文件几乎是一样的.不光是目标文件,动态链接库(DLL,Dynamic Linking Library,Windows下的`.dll`和Linux下的`.a`)以及静态链接库(Static Linking Library,windows下的`.lib`和Linux下的`.a`)都是按照这种格式存放的.
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/gaosiyan/CS/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
